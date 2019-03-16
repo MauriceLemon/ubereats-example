@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="UberEats is a premium cafe & restaurants search service with the misson to bring affordable and healthy meals to as many people as possible.">
+
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">        
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&amp;subset=cyrillic" rel="stylesheet" type="text/css">
+
+        <title>Unicore</title> 
+        
+<!--
+        <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+        <link rel="manifest" href="resources/favicons/site.webmanifest">
+        <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="resources/favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">   
+-->
+
+        <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+        <link rel="manifest" href="resources/favicons/site.webmanifest">
+        <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">  
+        
+    </head>
+    
+    <body>
+       
+        <header>
+            <nav>
+                <figure class="navigation">
+                    <div class="navigation__content">
+                        <a href="#"><img src="resources/img/logo.svg" alt="Ubereats logo" class="navigation__logo"></a>
+                        <div class="navigation__search">
+                            <input type="text" placeholder="Name" class="navigation__name">
+                            <p>to</p>
+                            <input id="icon" style="text-indent:20px;" type="text" placeholder="Адрес" class="navigation__address">
+                        </div>
+                        <div class="navigation__authorization">
+                            <div class="btn btn__ghost">Sign In</div>
+                            <div class="btn btn__full">Register</div>
+                            <div class="icon icon__cart"><a href="#"><img src="resources/icons/basket.svg"></a></div>
+                        </div>
+                    </div>
+                </figure>
+            </nav>
+        </header>
+        
+        <section class="search">
+            <div class="search__content">
+                <input id="search" style="text-indent:30px;" type="text" placeholder="Search for restaurant or cuisine">
+            </div>
+        </section>
+        
+        <section class="list">
+            <div class="list__title">
+                <h2>Moscow Restaurants</h2>
+            </div>
+            <div class="list__content">
+                <div class="list__item">
+                    <div class="item__container">
+                        <a href="#"><img src="resources/img/photo-5.png" class="item__image"></a> 
+                    </div>
+                    <a href="#"><h3 class="item__title">Макдональдс – Газетный</h3></a>
+                    <p class="item__info">₽₽ • Бургеры</p>
+                    <p class="item__time">25 - 35 Min</p>
+                </div>
+                <div class="list__item">
+                    <a href="#"><img src="resources/img/photo-1.png" class="item__image"></a>
+                    <a href="#"><h3 class="item__title">DimSum &amp; Co — ЦДМ</h3></a>
+                    <p class="item__info">₽ • Японская • Китайская • Азиатская</p>
+                    <p class="item__time">40 - 50 Min</p>
+                </div>
+                <div class="list__item">
+                    <a href="#"><img src="resources/img/photo.png" class="item__image"></a>
+                    <a href="#"><h3 class="item__title">ДвижОК — Манежная</h3></a>
+                    <p class="item__info">₽ • Американская • Европейская</p>
+                    <p class="item__time">35 - 45 Min</p>
+                </div>
+            </div>
+            <div class="list__content">
+                <div class="list__item">
+                    <a href="#"><img src="resources/img/photo-2.png" class="item__image"></a>
+                    <a href="#"><h3 class="item__title">НЯ — NHA</h3></a>
+                    <p class="item__info">₽₽ • Вьетнамская</p>
+                    <p class="item__time">30 - 40 Min</p>
+                </div>
+                <div class="list__item">
+                    <a href="#"><img src="resources/img/photo-3.png" class="item__image"></a>
+                    <a href="#"><h3 class="item__title">Точка Дзы — Цветной</h3></a>
+                    <p class="item__info">₽₽ • Вьетнамская</p>
+                    <p class="item__time">40 - 50 Min</p>
+                </div>
+                <div class="list__item">
+                    <a href="#"><img src="resources/img/photo-4.png" class="item__image"></a>
+                    <a href="#"><h3 class="item__title">Cinnabon</h3></a>
+                    <p class="item__info">₽ • Выпечка • Десерты • Капкейки</p>
+                    <p class="item__time">25 - 35 Min</p>
+                </div>
+            </div>
+            <div class="list__content">
+                <div class="list__item">
+                    <a href="#"><img src="resources/img/photo-6.png" class="item__image"></a>
+                    <a href="#"><h3 class="item__title">PIZZELOVE</h3></a>
+                    <p class="item__info">₽₽ • Пицца</p>
+                    <p class="item__time">15 - 25 Min</p>
+                </div>
+                <div class="list__item">
+                    <a href="#"><img src="resources/img/photo-7.png" class="item__image"></a>
+                    <a href="#"><h3 class="item__title">Zю кафе — Тверская</h3></a>
+                    <p class="item__info">₽₽ • Японская</p>
+                    <p class="item__time">25 - 35 Min</p>
+                </div>
+                <div class="list__item">
+                    <a href="#"><img src="resources/img/photo-8.png" class="item__image"></a>
+                    <a href="#"><h3 class="item__title">Bar BQ Cafe — Манежная</h3></a>
+                    <p class="item__info">₽₽₽ • Европейская</p>
+                    <p class="item__time">30 - 40 Min</p>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="footer__head">
+                <a href="#"><img src="resources/img/white-logo.svg" alt="Ubereats logo" class="footer__logo"></a>
+            </div>
+            
+            <div class="separator">
+                <hr/>
+            </div>
+
+            <div class="footer__content">
+                <div class="footer__column">
+                    <select class="select__language" value="English">
+                        <option>English</option>
+                        <option>Russian</option>
+                        <option>Romanian</option>
+                    </select>
+                    <div class="tag">
+                        <p style="color: #57AD56">#</p><p style="color: #FFFFFF">UberEats</p>
+                    </div>
+                    <div class="social__links">
+                       <p class="social__link">
+                           <a href="#"><img class="social"  src="resources/icons/facebook.svg"></a></p>
+                       <p class="social__link">
+                           <a href="#"><img class="social"  src="resources/icons/twitter.svg"></a></p>
+                       <p class="social__link">
+                           <a href="#"><img class="social" src="resources/icons/instagram.svg"></a></p>
+                    </div>
+                </div>
+                <div class="footer__column">
+                    <p><a href="#">About UberEats</a></p>
+                    <p><a href="#">Become a Delivery Partner</a></p>
+                    <p><a href="#">Become a Restaurant Partner</a></p>
+                </div>
+                <div class="footer__column">
+                    <p><a href="#">See all cities</a></p>
+                    <p><a href="#">Pricing</a></p>
+                    <p><a href="#">Help</a></p>
+                    <p><a href="#">FAQs</a></p>
+                </div>
+            </div>
+
+            <div class="separator">
+                <hr/>
+            </div>
+            
+            <div class="btns__content">
+                    <a href="#" class="btn-app"><img src="resources/img/download-app.svg" alt="App Store Button"></a>
+                    <a href="#" class="btn-app"><img src="resources/img/download-app-android.png" alt="Google Play Button"></a>
+            </div> 
+
+            <div class="separator">
+                <hr/>
+            </div>
+            
+            <div class="footer__content">
+                <div class="footer__column">
+                    <p>© 2019 Uber Technologies Inc.</p>
+                </div>
+                <div class="footer__column">
+                    <p><a href="#">Privacy</a></p>
+                </div>
+                <div class="footer__column">
+                    <p><a href="#">Terms</a></p>
+                </div>
+            </div>    
+        </footer>   
+    </body>
+</html>
